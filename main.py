@@ -5,7 +5,7 @@ import vertexai
 from vertexai.preview.generative_models import GenerativeModel, Part
 
 # Path to API key file
-key_path="./Credentials/key.json"
+key_path="./key.json"
 credentials = Credentials.from_service_account_file(
     key_path,
     scopes=['https://www.googleapis.com/auth/cloud-platform'])
