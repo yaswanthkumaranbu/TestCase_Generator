@@ -1,3 +1,4 @@
+from main import generate_test_cases
 import gradio as gr
 import json
 import os
@@ -22,11 +23,8 @@ def read_file_and_convert(file, output_filename):
         # Store content in global variable
         global_content = content
         
-        # Convert content to JSON
-        try:
-            json_content = json.loads(content)
-        except json.JSONDecodeError:
-            json_content = {"content": content}
+        # Generate testcases
+        Result = generate_test_cases(global_content)
         
         # Ensure the filename ends with .json
         if not output_filename.lower().endswith('.json'):
@@ -35,15 +33,15 @@ def read_file_and_convert(file, output_filename):
         # Create the full path for the output file
         output_path = os.path.join(output_folder, output_filename)
         
-        # Create the JSON file in the output folder
+        # Write the Result directly to the JSON file
         with open(output_path, 'w', encoding='utf-8') as json_file:
-            json.dump(json_content, json_file, indent=2)
+            json_file.write(Result)
 
         return content, output_path
       
     except Exception as e:
         return f"Error processing file: {str(e)}", None
-
+    
 interface = gr.Interface(
     fn=read_file_and_convert,
     inputs=[
@@ -54,7 +52,7 @@ interface = gr.Interface(
         gr.Textbox(label="File Content"),
         gr.File(label="Download JSON")
     ],
-    title="Text File Reader and JSON Converter",
+    title="Functional Testcase Generator",
 )
 
 interface.launch()
