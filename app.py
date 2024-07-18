@@ -1,15 +1,60 @@
 import gradio as gr
+import json
+import os
 
-def read_file(file):
-    with open(file.name, 'r') as f:
-        content = f.read()
-    return content
+# Global variable to store the content
+global_content = None
+
+# Ensure the output folder exists
+output_folder = "output"
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
+def read_file_and_convert(file, output_filename):
+    global global_content
+    
+    if file is None:
+        return "No file uploaded", None
+    try:
+        with open(file.name, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Store content in global variable
+        global_content = content
+        
+        # Convert content to JSON
+        try:
+            json_content = json.loads(content)
+        except json.JSONDecodeError:
+            json_content = {"content": content}
+        
+        # Ensure the filename ends with .json
+        if not output_filename.lower().endswith('.json'):
+            output_filename += '.json'
+        
+        # Create the full path for the output file
+        output_path = os.path.join(output_folder, output_filename)
+        
+        # Create the JSON file in the output folder
+        with open(output_path, 'w', encoding='utf-8') as json_file:
+            json.dump(json_content, json_file, indent=2)
+
+        return content, output_path
+      
+    except Exception as e:
+        return f"Error processing file: {str(e)}", None
 
 interface = gr.Interface(
-    fn=read_file,
-    inputs=gr.inputs.File(file_count="single", label="Upload a text file"),
-    outputs=gr.outputs.Textbox(label="File Content"),
-    title="Text File Reader"
+    fn=read_file_and_convert,
+    inputs=[
+        gr.File(file_count="single", label="Upload a text file"),
+        gr.Textbox(label="Output JSON filename", placeholder="e.g., output.json")
+    ],
+    outputs=[
+        gr.Textbox(label="File Content"),
+        gr.File(label="Download JSON")
+    ],
+    title="Text File Reader and JSON Converter",
 )
 
 interface.launch()
