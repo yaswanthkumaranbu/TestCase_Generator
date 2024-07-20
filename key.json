@@ -1,14 +1,13 @@
 {
-    "type": "service_account",
-    "project_id": "chimeraai-429711",
-    "private_key_id": "91aa7313dec2067067fbfa41de48f149b7535b1c",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDYFxXCTxEmv3fa\nvsOVCDEl/S1jx0KmK/GqGbAi9SoB7/NyE2Z4zlaPprEBm2Se7aSUqjBaU71k8A7t\nza4LBz/N63L/VPnUyU1PltA8JLXHQG9Q1rzY3NiPyEpAnHLLVfuCUst8eq7btr35\ndIBN1absprWIsrwy1M2Tm3nUfRz3AyS2gEiPcW6i2ZobiGlQBuUyCn53ILDAyMX2\nvobP0sGuyEUv/49GTmUqS7yYT42H2jcagEFGt8YZWmTlN3+Pcn7J90UFSy1zUI9O\nIo0eWUgbKBllEwbX5jRwoTUHs/q3+2bboSWJXbhSHDwi9jKcb4IFjWWumvkZnCDm\n/ctpqF97AgMBAAECggEAGoVuzrvci4hpYegS4howygxSQ1JD7FgtX2aqtwenAbjd\nBK274GzWs+fOBrf3OAhLsFFZAOURNC/AbVBWoZTgsFnK8eqQhRy1x+RnJ1KMGune\nH6pTYDxuuernrhllf25MoZiez+bQyjeaBmFVk/f6dkYZtq7VKVnz5z9oSvuWD/zR\nix4oPSG5qPHxerKAxgt2qGH+q2KeUQJjHGQbLne0Rb+Gj/I+7KWfwdART+9CaGf1\ncwq3/GKsblD//H40frKBX501IXzE70Yb6YIgzrg+e4NkU2Qomxuukbdx6F4uEsJ1\nNBCI1vx9nAkIvrLjxetpqz9ZyyFa50oXfF5aXv/8rQKBgQDsPGSXln8lwf/WpKPU\ne1bqavMCBKRu+PQz6jVheQ7UFu03jw2scb8tOgIw/QK6JChRRwMJk36HZaICLum5\nEuQcSoXnWD5txbDHe1YiHuDfT8cP2vKXdiO72j1ssg4e+WUNKcjaIcW//XZFeWeu\nH4HznXnLK2Qb7vZCBaISHzLINwKBgQDqKzf9cYINuPfbul3Xyw1ei0zLaeYbYJfb\nVmpBaG7UxQpappmqd9yoESNlksi7qD0MvAsRwlIHLiUQoXN5iDiDb1X4lmBUKlo/\nqf6+AedJuSFbT1OxRWSHNxVji2qtlNhkd6hdwJI89vH5J0C/0cngHfua0MWXPPr7\npzMe82a43QKBgDO+ir4VbeZEVxiZ2XTKS2BvaqkPgUD5cOwKKgUeshvMpcscn38d\nLyXl5eL7GGTTVK1w435uezGHFnRp+DHcrHBx9mCVGJ+MxMr8/gHdR55CaDTV3XtF\nmlAkXn33hlZMhFDczSzSZvFFwGk5TXd7WUiWPr480+G2duRBPZ3AjawDAoGBAMl3\nz581RmCKEG2yhUTBBUqfbL3h6cEKNPzX92k48YoL0OG3TqQ0pdrPi/W6+QtDLutC\n6f8ogax9zhPl5FTel0i1xHCw6EXhfm4h0vMk7homtoU51dbBzkDranKPo4OeeSLP\nNEMdCHR9PihP1kxysU4qXauQDUAWjhVvf/MUFP/dAoGBAN0rgDT6+Ml70VFsLJFr\n8SDeNZ9ydNnvwtPWAhSfS/Th2x6MknW2cY1xuGonEqlc2B3XZcrlRDqCQ5JlRXUw\nbGM45PTrns8mDxQf0uCsiHXlxp3hc45JuP/6CJMFnNnxCmLvEhSavcBe/TDYv0mr\n+gWh0b30KdjDG7DBz37zjwM2\n-----END PRIVATE KEY-----\n",
-    "client_email": "chimera-ai-backend@chimeraai-429711.iam.gserviceaccount.com",
-    "client_id": "106261741217832630198",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chimera-ai-backend%40chimeraai-429711.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
-  
+  "type": "service_account",
+  "project_id": "chimeraai-429711",
+  "private_key_id": "d910bdb2a2123b7c903c499da353f021163f12c7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwf2ixdLOxSOnt\nBRZMh/+VRjXFDn1OWuVDkbFKqD2HZi7efmoqgJQn++Y3fS34wasGepJDipSB5Fmf\nBhffLNo7ahXOPvnv2p9DHAxu4tZYxl0aRQoDKFHsz0Z4qZ0P2EZ7KpqzcLqZcZRI\nXjpalNT5ox3X650zVuILtFmJJv0tP5NELSgTfiLFtOgOBsTcL1zXfJK5fG3iR3S7\nuNgWVOfwydIqIW8h+qNzgAcTBqPrWjasjQ1kguoE5m4SDiyCIfFfiGik375Ymwld\niJLJJOFgQ6FaAHds0xoVVQvpwrKRoR0l+zLKEjWYB3froJpDvYcOjoEKnlatfxHS\nVkuSEzuVAgMBAAECggEABBig5GVx+i5YB4EzuEj7vIopm04vyE7BvWS3OaVX8DmF\n4vIKIrxjM95bxHPqSjiscHUNyfWAZtdW4SLyEOLombJnmSbLBC8NvS/8deJb2SmZ\nZY+uoM4hwJ4643gERibd0+P0PS/jlMYXC+rr7chAfR61BZrZRiTBEEZ6QX2fKJqk\nKSqi7jgVKxBl4748Kvgdw5RvhtpVF+zJY7pGdljkGwHegr4J70gnYt3nJssb2tRB\nOhoOOtA6WF96B4vj51ft8NsqOIzLhgBJUJHqh1y/Ryb7DBRjApSHsFxssaEVBKL0\nWh77OsTRHrMeHH+v4j+Xfvl87aWZE5afiLmEp1XYQQKBgQD0KvboUwyscL9skqfC\nHW2BwXAe7+FRn8tmXcgcyFvpYcMUSqh5vhB4bX6vflJBOL1SecvZ6xiEkRaN4+kF\nuf8xQ1zeulTR1uJR3spxunx3uNfIbkZ8BdO3hjJHrPdlxQPmPjsna9gpGoth61W5\nlwhuOhHlEpeQVtaq5J9UEZitRQKBgQC5DPWZ/YmiPHVn7yXM2fnHnP/6uU2yWWUc\n7GMmlPCrxGKNS/Cuekj7jnTMxqYjbGi0rLtsN4d8vxOjFGg7RruyWD0yx4gM20tu\nIs5wSNjHQF8wxMYV1SZjQC3dpK3nsS8kNcpAmJ9j7LKmediy57RMZ+3mALClfJQE\nEmXHDZtyEQKBgAppxqvz1seH63IK8yKhNKljAZAgNODRStBr0XwAw4K5i6NS58qB\nY5xvNwbvAT0M2W4qCZqanyoQMgENJkP7QbntIInTMojcfDx3nvSoumQ0uucuZM0n\nRnc+Pui1pLtvYpIwNz+gJtDh8+3SJo7KtS5WRasaVuJuAau6Il1ofrVtAoGBAIqS\nPchWp54pj/GIj9Ha2MS1uKpT4O7RKnqCOa1GkwLNSM9uMok1YTme76/4gai9IZtK\nTf83henQXDAes/7PdPaURR+lcyfNf6q1vckvg8WRWrb2Yy8uMlTYVoBHNULu19JR\nxWah45m8QfuP+snd4JHmsasukRkbNOvnqvdoJSNBAoGBAKkL3UTSM/VHelpqy7lU\nBn2hLXzC0FdwP2kVzbjfoYis2kVSdN98wwGn3JHOoQSmhvDSvT/YTWZeMKXJu1cf\nctLYRjLjuS1W9K20tJCwI++pmRzw9FZhgTjTNS26hyZuoqpvGkmB92hbkqDt9e3E\nOgjuUScsEjZz+xNnMUoLVYcC\n-----END PRIVATE KEY-----\n",
+  "client_email": "chimera-ai-backend@chimeraai-429711.iam.gserviceaccount.com",
+  "client_id": "106261741217832630198",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chimera-ai-backend%40chimeraai-429711.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
