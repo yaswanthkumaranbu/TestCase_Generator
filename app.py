@@ -54,4 +54,4 @@ interface = gr.Interface(
     title="Functional Testcase Generator",
 )
 
-interface.launch()
+interface.launch(server_port=5002)
