@@ -51,7 +51,7 @@ interface = gr.Interface(
         gr.Textbox(label="File Content"),
         gr.File(label="Download JSON")
     ],
-    title="Functional Testcase Generator",
+    title="TestCase AI",
 )
 
 interface.launch(server_port=5002)
