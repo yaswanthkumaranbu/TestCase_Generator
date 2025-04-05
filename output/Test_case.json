@@ -1,0 +1,151 @@
+[
+  {
+    "TC_ID": "TC_1",
+    "TC_Summary": "Verify Smart Banner Display on Mobile Browser - Android",
+    "Description": "This test case verifies that the smart banner is displayed correctly on an Android device when accessing PSC through a mobile browser.",
+    "Test Steps": [
+      "1. Open a mobile browser on an Android device.",
+      "2. Navigate to the PSC application login page."
+    ],
+    "Expected Result": [
+      "1. Smart Banner: Displayed at the top or bottom of the screen.",
+      "2. App Name: Displayed correctly.",
+      "3. App Information: 'Download PaySchools Central Mobile App for easy mobile payments, manage student accounts, lunch balances, fees, and more—all at your fingertips!'",
+      "4. App Screenshots: Displayed correctly as per design.",
+      "5. Install Button: Visible and correctly labeled.",
+      "6. Close Button: Visible and correctly displayed."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_2",
+    "TC_Summary": "Verify Smart Banner Display on Mobile Browser - iOS",
+    "Description": "This test case verifies that the smart banner is displayed correctly on an iOS device when accessing PSC through a mobile browser.",
+    "Test Steps": [
+      "1. Open a mobile browser on an iOS device.",
+      "2. Navigate to the PSC application login page."
+    ],
+    "Expected Result": [
+      "1. Smart Banner: Displayed at the top or bottom of the screen.",
+      "2. App Name: Displayed correctly.",
+      "3. App Information: 'Download PaySchools Central Mobile App for easy mobile payments, manage student accounts, lunch balances, fees, and more—all at your fingertips!'",
+      "4. App Screenshots: Displayed correctly as per design.",
+      "5. GET Button: Visible and correctly labeled.",
+      "6. Close Button: Visible and correctly displayed."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_3",
+    "TC_Summary": "Verify Smart Banner Not Displayed on Desktop Browser",
+    "Description": "This test case verifies that the smart banner is not displayed when accessing PSC from a desktop browser.",
+    "Test Steps": [
+      "1. Open a desktop browser.",
+      "2. Navigate to the PSC application login page."
+    ],
+    "Expected Result": [
+      "1. Smart Banner: Not displayed."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_4",
+    "TC_Summary": "Verify Smart Banner Not Displayed within PSM Mobile App",
+    "Description": "This test case verifies that the smart banner is not displayed within the PSM mobile application.",
+    "Test Steps": [
+      "1. Open the PSM mobile application on a mobile device.",
+      "2. Navigate to any screen within the app."
+    ],
+    "Expected Result": [
+      "1. Smart Banner: Not displayed."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_5",
+    "TC_Summary": "Verify Smart Banner - Install Button Functionality - Android",
+    "Description": "This test case verifies that clicking the 'Install' button on the smart banner redirects the user to the Google Play Store on an Android device.",
+    "Test Steps": [
+      "1. Open a mobile browser on an Android device.",
+      "2. Navigate to the PSC application login page.",
+      "3. Click on the 'Install' button in the smart banner."
+    ],
+    "Expected Result": [
+      "1. Redirection: User is redirected to the Google Play Store listing for the PSM mobile application."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_6",
+    "TC_Summary": "Verify Smart Banner - GET Button Functionality - iOS",
+    "Description": "This test case verifies that clicking the 'GET' button on the smart banner redirects the user to the Apple App Store on an iOS device.",
+    "Test Steps": [
+      "1. Open a mobile browser on an iOS device.",
+      "2. Navigate to the PSC application login page.",
+      "3. Click on the 'GET' button in the smart banner."
+    ],
+    "Expected Result": [
+      "1. Redirection: User is redirected to the Apple App Store listing for the PSM mobile application."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_7",
+    "TC_Summary": "Verify Smart Banner - Open Button Functionality",
+    "Description": "This test case verifies that the 'Open' button is displayed instead of 'Install'/'GET' when the PSM app is already installed, and clicking it opens the app.",
+    "Test Steps": [
+      "1. Install the PSM mobile application on the device.",
+      "2. Open a mobile browser on the device.",
+      "3. Navigate to the PSC application login page.",
+      "4. Click on the 'Open' button in the smart banner."
+    ],
+    "Expected Result": [
+      "1. Button Label: 'Open' button is displayed instead of 'Install'/'GET'.",
+      "2. App Launch: Clicking the 'Open' button launches the PSM mobile application."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_8",
+    "TC_Summary": "Verify Smart Banner - Close Button Functionality",
+    "Description": "This test case verifies that clicking the close button dismisses the smart banner.",
+    "Test Steps": [
+      "1. Open a mobile browser on a device.",
+      "2. Navigate to the PSC application login page.",
+      "3. Click on the close (x) button in the smart banner."
+    ],
+    "Expected Result": [
+      "1. Banner Dismissal: The smart banner is closed and no longer visible on the screen."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  },
+  {
+    "TC_ID": "TC_9",
+    "TC_Summary": "Verify Smart Banner - Expanded and Collapsed Views",
+    "Description": "This test case verifies that the smart banner can be expanded and collapsed correctly.",
+    "Test Steps": [
+      "1. Open a mobile browser on a device.",
+      "2. Navigate to the PSC application login page.",
+      "3. Verify the banner is in its expanded view by default.",
+      "4. Click on the collapse icon.",
+      "5. Verify the banner collapses to the collapsed view, showing only the app name and buttons.",
+      "6. Click on the expand icon.",
+      "7. Verify the banner expands back to the expanded view, showing all content."
+    ],
+    "Expected Result": [
+      "1. Default View: Banner is in expanded view upon loading.",
+      "2. Collapsed View: Banner successfully collapses to show only app name and buttons.",
+      "3. Expanded View: Banner successfully expands to show all content."
+    ],
+    "Actual Result": "",
+    "Status": ""
+  }
+]

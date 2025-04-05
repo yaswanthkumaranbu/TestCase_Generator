@@ -1,3 +1,4 @@
+
 from main import generate_test_cases
 import gradio as gr
 import os
@@ -54,4 +55,4 @@ interface = gr.Interface(
     title="TestCase AI",
 )
 
-interface.launch(server_port=5002)
+interface.launch(server_port=5002, allowed_paths=["/Users/yaswanthkumara/Documents/Final yr project"],share=True)

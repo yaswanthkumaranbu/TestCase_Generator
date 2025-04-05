@@ -15,7 +15,7 @@ if credentials.expired:
     credentials.refresh(Request())
 
 # project and data credentials
-PROJECT_ID = 'chimeraai-429711'
+PROJECT_ID = 'booming-edge-452504-m8'
 REGION = 'us-central1'
 location="global"
 
@@ -105,7 +105,9 @@ def generate_test_cases(query):
     
     return generated_text.strip()
 
-# Example usage
+
+
+# Example usage 
 query = """
 Description
 A smart banner will be displayed on the login screen when users open the PSC application in a mobile browser. The banner will provide information about the PSM mobile application and will feature an "Install" button for Android users and a "GET" button for iOS users. If the user already has the PSM app installed, an "Open" button will be displayed instead.
